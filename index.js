@@ -31,10 +31,8 @@ module.exports = function(link, source, medium, campaign, content, term) {
     parsedLink.query['utm_term'] = term;
   }
 
-  // fix strange behavior of url.format
-
-  delete parsedLink.href;
-  delete parsedLink.path;
+  // remove 'search' property according documentation
+  // http://nodejs.org/api/url.html#url_url_format_urlobj
   delete parsedLink.search;
 
   return url.format(parsedLink);
