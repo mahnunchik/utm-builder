@@ -2,6 +2,18 @@
 
 var url = require('url');
 
+/**
+ * Add custom campaign parameters to your URLs.
+ * @module utm-builder
+ *
+ * @param {String} link - Original URL
+ * @param {String} source
+ * @param {String} medium
+ * @param {String} campaign
+ * @param {String} [content]
+ * @param {String} [term]
+ */
+
 module.exports = function(link, source, medium, campaign, content, term) {
   if (!link) {
     throw new Error('link can not be empty');
