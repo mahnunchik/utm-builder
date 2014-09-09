@@ -1,4 +1,4 @@
-# utm-builder
+# utm-builder [![Build Status](https://travis-ci.org/mahnunchik/utm-builder.svg?branch=master)](https://travis-ci.org/mahnunchik/utm-builder)
 
 `utm-builder` adds custom campaign parameters to your URLs.
 
