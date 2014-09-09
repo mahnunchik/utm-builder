@@ -2,3 +2,12 @@ language: node_js
 node_js:
 - '0.11'
 - '0.10'
+deploy:
+  provider: npm
+  email: mahnunchik@gmail.com
+  api_key:
+    secure: YmNZP5kK5qU4uuyqeNEoRndqFVvjdTDtc10rbVZoQUAkfz1D/h3pqIfQpI+D+7+ht14fiT4Cg/rw0/aVWChSPMnpyFJYlKVtbe8vDRVbbt6BO4CUbZoEDmTaISW7z/p144YoWxKFWl1GrZI3c10UdurKKhPpC7pClVYeTkAn+R0=
+  on:
+    tags: true
+    repo: mahnunchik/utm-builder
+    all_branches: true
