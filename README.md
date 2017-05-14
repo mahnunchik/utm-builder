@@ -1,5 +1,7 @@
 # utm-builder [![Build Status](https://travis-ci.org/mahnunchik/utm-builder.svg?branch=master)](https://travis-ci.org/mahnunchik/utm-builder)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mahnunchik/utm-builder.svg)](https://greenkeeper.io/)
+
 `utm-builder` adds custom campaign parameters to your URLs.
 
 ## Installation
